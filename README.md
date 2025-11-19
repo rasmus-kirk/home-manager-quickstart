@@ -48,6 +48,7 @@ You will find these variables in the following places:
 Now you're ready to build your first iteration! Simply run:
 
 ```bash
+  cd ~/.system-configuration
   nix run home-manager/master -- switch -b backup --flake .#your-hostname-here
 ```
 
